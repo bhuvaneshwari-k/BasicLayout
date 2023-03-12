@@ -1,0 +1,86 @@
+.container{
+display: flex;
+flex-direction: column;
+}
+body{
+  flex-wrap: wrap;
+  border: 2px solid #000000;
+  text-align: center;
+}
+div{
+    border: 2px solid #000000;
+}
+.header{
+    background-color:#f0ffff;
+    color:#228b22;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ ul {
+    list-style-type: none;
+    margin:2px;
+    padding: 5px; 
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ .box2 li {
+    float:left;
+   } 
+  a {
+    display: block;
+    color: #ffffff;
+    font-size:18px;
+    padding: 12px 120px;
+    text-decoration: none;
+  }
+  
+   .box2 li a:hover {
+    background-color:#808080;
+    transform: scale(1.2);
+    box-shadow: 10px 10px 8px #5f9ea0;
+    transition: 0.7s;
+
+  }
+  .active{
+    background-color:#5f9ea0;
+    color: #000000;
+  }
+  .box3{
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+  .box3 li a:hover {
+    background-color:#808080;
+
+  }
+  .innerbox1{
+    flex-basis: 30%;
+  }
+  .innerbox2{
+    flex-basis: 69%;
+  }
+ .box4{
+  display: flex;
+  flex-direction:row;
+  background-color:#f0f8ff;
+  color:#000000 ;
+  border: 2px solid #000000;
+ }
+body{
+    text-align: center;
+}
+img{
+  object-fit: fill;
+}
+.innerbox{
+  flex-basis: 25%;
+}
+i{
+  padding: 25px 10px;
+}
+.footer a{
+  padding: 30px 20px;
+  color: #000000;
+  font-size:40px;
+}
